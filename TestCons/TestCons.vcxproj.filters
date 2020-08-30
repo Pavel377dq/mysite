@@ -13,18 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Stored Procedurce">
+      <UniqueIdentifier>{778b3703-6079-40ba-b7b8-e941a63b712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{62f47693-5bce-49fa-a6c5-dbc5c93ff1e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestCons.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Source.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Stored Procedurce</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCons.cpp">
+      <Filter>Test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source.h">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Stored Procedurce</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

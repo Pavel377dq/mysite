@@ -1,11 +1,12 @@
 ﻿// TestCons.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include "Source.h"
 #include <iostream>
 
 int main()
 {
     std::cout << "Hello World!\n";
+	std::cout<< sum(5, 6);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
